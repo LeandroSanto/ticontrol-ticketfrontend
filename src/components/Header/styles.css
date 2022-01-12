@@ -1,0 +1,28 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    background: var(--COLOR_HEADER_BACKGROUND);
+    
+    border-radius: 8px;
+}
+
+#headerTittle{
+    margin-top: 20px;
+    padding: 60px;
+    color: var(--COLOR_TEXT_SECONDARY);
+    font-size: 26px;
+    font-family: var(--FONTS_BOLD);
+}
+
+#headerLogin{
+    display: flex;
+    justify-content: right;
+    margin-right: 15px;                 
+    color: var(--COLOR_TEXT_SECONDARY);
+}
+
+#headerLogin a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: var(--COLOR_TEXT_SECONDARY)
+}

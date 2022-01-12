@@ -1,0 +1,18 @@
+:root{
+    display: flex;
+    flex-direction: column;
+}
+
+.neworderContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.neworderForm{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 60vw;
+    border-radius: 8px;
+    background: var(--COLOR_SECONDARY_BACKGROUND);
+}

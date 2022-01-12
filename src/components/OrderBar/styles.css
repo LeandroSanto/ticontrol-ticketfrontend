@@ -1,0 +1,9 @@
+.orderBarStyle{
+    display: flex;
+    flex-direction: row;
+}
+.orderBarStyle li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}

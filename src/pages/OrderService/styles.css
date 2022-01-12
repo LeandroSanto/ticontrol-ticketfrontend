@@ -1,0 +1,35 @@
+.orderserviceContainer{
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	width: 60vw;
+	border-radius: 8px;
+	background: var(--COLOR_SECONDARY_BACKGROUND);
+	border-style: solid;
+}
+.orderserviceContainer #orderInfo{
+	display: flex;
+	flex-direction: column;
+}
+
+.orderserviceContainer #orderinfoclient{
+	display: flex;
+	flex-direction: row;
+	font-family: var(--FONTS_REGULAR);
+}
+
+.orderserviceContainer #orderinfoservice{
+	display: flex;
+	flex-direction: column;
+	font-family: var(--FONTS_LIGHT);
+	font-size: 18px;
+}
+.orderContent{
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	background: var(--COLOR_SECONDARY_BACKGROUND);
+	border-style: solid;
+}

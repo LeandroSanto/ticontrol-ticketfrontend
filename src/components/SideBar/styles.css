@@ -1,0 +1,19 @@
+.container{
+	background: var(--COLOR_SIDEBAR_BACKGROUND);
+	max-width: 18vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.container li{
+	margin: 5px;
+	padding: 20px;
+	list-style: none;
+	color: var(--COLOR_TEXT_SECONDARY);
+}
+
+.container li a{
+ 	color: var(--COLOR_TEXT_SECONDARY);
+	text-decoration: none;
+}
