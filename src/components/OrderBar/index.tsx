@@ -2,7 +2,10 @@ import React from 'react';
 import * as hiIcons from 'react-icons/hi';
 import * as mdIcons from 'react-icons/md'
 
+import './styles.css';
+
 export function OrderBar(){
+
 return(
 	<nav className='orderBarStyle'>
 		<li>
@@ -16,6 +19,7 @@ return(
 				<mdIcons.MdBuild /><a href=''>Efetuar Upgrade</a>
 			</ul>
 		</li>
+		
 	</nav>
 )
 }
