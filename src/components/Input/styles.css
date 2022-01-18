@@ -1,0 +1,13 @@
+.checkboxContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxContainer input{
+    margin-left: 10px;
+}
+
+.checkboxContainer label{
+    font-family: var(--FONTS_LIGHT);
+    font-size: 15px;
+}

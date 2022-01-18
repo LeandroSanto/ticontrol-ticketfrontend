@@ -1,0 +1,11 @@
+.activityContainer{
+  display:flex;
+  flex-direction: row;
+}
+#userField{
+  font-family: var(--FONTS_REGULAR);
+}
+
+#activityField{
+  font-family: var(--FONTS_REGULAR);
+}

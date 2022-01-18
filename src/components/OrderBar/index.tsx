@@ -19,7 +19,6 @@ return(
 				<mdIcons.MdBuild /><a href=''>Efetuar Upgrade</a>
 			</ul>
 		</li>
-		
 	</nav>
 )
 }
