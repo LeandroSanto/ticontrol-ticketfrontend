@@ -1,4 +1,4 @@
-body, input, button, textarea{
+:root{
     --FONTS_Light: 'Roboto_300Light';
     --FONTS_REGULAR: 'Roboto_400Regular';
     --FONTS_BOLD: 'Roboto_700Bold';
