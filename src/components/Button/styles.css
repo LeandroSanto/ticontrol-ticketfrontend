@@ -10,10 +10,11 @@
 }
 
 .buttonContainer label{
-    font-family: var(--FONT_REGULAR);
-font-size: 15px;
-
+    font-family: var(--FONT_BOLD);
+    font-size: 15px;
+    
+    background: var(--COLOR_BUTTON);
+    color: var(--COLOR_TEXT_SECONDARY);
+    
     align-self: center;
-
-    color: var(--COLOR_TEXT_SECONDARY)
 }

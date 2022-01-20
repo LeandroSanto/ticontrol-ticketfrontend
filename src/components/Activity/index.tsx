@@ -2,20 +2,18 @@
 
  import './styles.css'
 interface ActivityProps{
-  activity:{
-    user: string;
-    activity: string;
-  }
+  user: string;
+  activity: string;
 }
 
-export const Activity:React.FunctionComponent<ActivityProps> =({activity}) =>{
+export const Activity:React.FunctionComponent<ActivityProps> =({user, activity}) =>{
   return(
     <div className='activityContainer'> 
       <div id='userField'>
-        <label>{activity.user}</label>
+        <label>{user}</label>
       </div>
       <div id='activityField'>
-        <label>{activity.activity}</label>
+        <label>{activity}</label>
       </div>
     </div>
   )
