@@ -1,6 +1,8 @@
 import React from 'react';
-import { Route } from 'react-router-dom'
-import {Home} from './pages/Home';
+import { BrowserRouter } from 'react-router-dom'
+import { Routes } from './routes';
+
+import './src/theme/app.css';
 
 import './src/theme/colors.css';
 import './src/theme/fonts.css';
@@ -9,7 +11,11 @@ import './src/theme/global.css';
 
 function App() {
   return (
-    <Home />
+    <div className='container'>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </div>
   );
 }
 

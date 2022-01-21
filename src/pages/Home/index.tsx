@@ -13,7 +13,6 @@ import { OrderService } from '../OrderService';
 export function Home(){
   return(
     <div className='homeContainer'>
-      <SideBar/>
       <OrderService />
     </div>
   )
