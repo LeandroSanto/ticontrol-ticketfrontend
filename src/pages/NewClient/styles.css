@@ -1,0 +1,28 @@
+:root{
+    display: flex;
+    flex-direction: column;
+}
+
+.newclientContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.newclientForm{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 60vw;
+    border-radius: 8px;
+    background: var(--COLOR_SECONDARY_BACKGROUND);
+}
+
+@media only screen and (max-width: 900px){
+    .newclientContainer{
+      width: 100vw;
+    }
+    
+    .newclientForm{
+        width: 100vw;
+    }
+}

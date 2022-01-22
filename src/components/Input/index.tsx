@@ -8,14 +8,13 @@ interface InputProps{
   name: string,
 }
 
-export const Input:React.FunctionComponent<InputProps>=({ label, name, type, children })=>{
+export const Input:React.FunctionComponent<InputProps>=({ label, name, type })=>{
   return(
-    <div>
+    <div className='inputContainer'>
         <label>{label}</label>
         <input 
           type={type} 
           name={name} 
-          children
         />
     </div>
   )

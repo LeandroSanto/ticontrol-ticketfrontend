@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom'
-import { Routes } from './routes';
+import { SideBar } from './components/SideBar';
+
+import { Rotas } from './rotas';
 
 import './src/theme/app.css';
 
@@ -11,10 +12,9 @@ import './src/theme/global.css';
 
 function App() {
   return (
-    <div className='container'>
-      <BrowserRouter>
-        <Routes />
-      </BrowserRouter>
+    <div className='appcontainer'>
+        <SideBar />
+        <Rotas />
     </div>
   );
 }

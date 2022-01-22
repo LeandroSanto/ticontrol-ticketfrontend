@@ -1,4 +1,22 @@
-.container{
+.appcontainer{
     display: flex;
     flex-direction: row;
+}
+
+#BrowserRouter{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 900px){
+    .appcontainer{
+        display: flex;
+        flex-direction: column;
+        max-height: 90%;
+    }
+    #BrowserRouter{
+        display: flex;
+        flex-direction: column;
+        max-height: 90%;
+    }
 }

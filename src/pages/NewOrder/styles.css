@@ -16,3 +16,13 @@
     border-radius: 8px;
     background: var(--COLOR_SECONDARY_BACKGROUND);
 }
+
+@media only screen and (max-width: 900px){
+    .neworderContainer{
+      width: 100vw;
+    }
+    
+    .neworderForm{
+        width: 100vw;
+    }
+}

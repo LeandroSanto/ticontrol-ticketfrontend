@@ -1,13 +1,15 @@
-.checkboxContainer{
+.inputContainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.checkboxContainer input{
+.inputContainer input{
     margin-left: 10px;
+    border-radius: 6px;
+    font-size: 18px;
 }
 
-.checkboxContainer label{
+.inputContainer label{
     font-family: var(--FONTS_LIGHT);
     font-size: 15px;
 }
