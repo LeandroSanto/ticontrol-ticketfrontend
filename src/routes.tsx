@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route} from 'react-router-dom';
 import { SideBar } from './components/SideBar';
 
 import { Home } from './pages/Home';
@@ -10,13 +10,13 @@ import { OrderService } from './pages/OrderService';
 export function Routes(){
   return(
     <BrowserRouter>
-      <SideBar />
-      <Switch>
+      <SideBar />  
+      
         <Route path="/" exact component={ Home } />
-        <Route path="/newclient" component={NewClient} />
-        <Route path="/neworder" component={NewOrder} />
-        <Route path="/orderservice" component={OrderService} />
-      </Switch>
+        <Route path="/newclient" component={ NewClient } />
+        <Route path="/neworder" component={ NewOrder } />
+        <Route path="/orderservice" component={ OrderService } />
+      
     </BrowserRouter>
   )
 }
